@@ -35,9 +35,9 @@ urlpatterns = [
     path("rest-auth/registration/", include("rest_auth.registration.urls")),
 ]
 
-admin.site.site_header = "test7811"
-admin.site.site_title = "test7811 Admin Portal"
-admin.site.index_title = "test7811 Admin"
+admin.site.site_header = "test781111"
+admin.site.site_title = "test781111 Admin Portal"
+admin.site.index_title = "test781111 Admin"
 
 # swagger
 api_info = openapi.Info(
